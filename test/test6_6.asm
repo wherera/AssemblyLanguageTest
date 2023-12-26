@@ -19,7 +19,7 @@ datasg ends
 
 codesg segment
 
-start:	mov ax, datasg		;初始化栈段
+start:	mov ax, datasg		;初始化数据段
 		mov ds, ax
 		
 		mov ax, stacksg		;初始化栈段
